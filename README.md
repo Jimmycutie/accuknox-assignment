@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Accuknox hiring assignment
+## How to run this repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Step 1: stay in the root folder of the repository and run ``` npm install ```
 
-Currently, two official plugins are available:
+Step 2: After step 1 installs all the dependencies run ``` npm run dev ``` in terminal while staying in the root folder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step 3: Ctrl/cmd + Click the link dispalyed in the terminal to launch a dev instance of this repository.
 
-## Expanding the ESLint configuration
+Step 4: Click on Dashboard v2 on navigation bar to proceed to dashboard.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Screenshots on what to expect
+### Landing page: 
+![Screenshot 2024-10-05 232314](https://github.com/user-attachments/assets/2b6ece68-0caa-496b-b283-49464b9146a3)
 
-- Configure the top-level `parserOptions` property like this:
+### Dashboard page:
+![Screenshot 2024-10-05 232056](https://github.com/user-attachments/assets/b5785646-d891-4e65-b2da-6d02b50f8654)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Edit dashboard menu:
+![image](https://github.com/user-attachments/assets/3a1aa79e-5307-46c7-a56c-88287e4d1760)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Add new widgets:
+![image](https://github.com/user-attachments/assets/f01fd33e-0008-49f4-a9d7-455f19f7be75)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Remove widgets:
+Before
+![Screenshot 2024-10-05 233630](https://github.com/user-attachments/assets/8d180eaf-d89c-4a97-b4bf-724a2f1e01c0)
+After
+![Screenshot 2024-10-05 233638](https://github.com/user-attachments/assets/862de6f8-7ba0-4ca2-9e2f-406411549a3c)
+
+
+
+
